@@ -2,7 +2,7 @@ import os
 
 def rename_folder(folder_photos, rename):
    
-    #verifica se o caminho da pasta Realmente Existe:
+  
 
     if not os.path.isdir(folder_photos):
         return f"error, {folder_photos} not found!"
